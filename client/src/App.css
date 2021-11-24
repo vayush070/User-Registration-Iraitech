@@ -1,0 +1,80 @@
+.App {
+  text-align: center;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+body {
+  background-image: url("./bg.jpg");
+  background-size: cover;
+  overflow-y: scroll;
+}
+form {
+  padding: 50px;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+/* 
+p {
+  border: 2px solid black;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 7px;
+} */
+
+.nav {
+  background-color: rgba(150, 150, 150, 0.603);
+}
+
+button {
+  background-color: rgb(150, 207, 204);
+  border-radius: 10px;
+  border: 1px solid grey;
+  margin: 4px;
+}
+.alert {
+  background-color: burlywood;
+  animation: 1s ease-out 0s 1 slideInFromTop;
+  position: fixed;
+  margin-left: 30px;
+}
+
+@keyframes slideInFromTop {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.navbar-and h1 {
+  color: aliceblue;
+  text-shadow: 0 0 3px #e47171, 0 0 5px #000066;
+}
+
+.white-text {
+  color: rgb(190, 190, 190);
+}
+
+.form1 {
+  border-radius: 10px;
+  /* border: 1px solid rgb(82, 82, 82); */
+  display: inline-block;
+  margin: 50px;
+  padding: 20px;
+  background-color: rgb(143, 156, 149);
+}
